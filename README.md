@@ -19,7 +19,7 @@ I tried here "B-VIPER" design pattern to develop the project. Before going into 
 
 ### Builder:
 
-Builder constructs the VIPER module and the relationship between them and it returns the view. Let's see how the builder looks like in our HomeScreen module
+Builder constructs the VIPER module and the relationship between them and it returns the view. Let's see how the builder looks like in our SearchScreen module
 
     struct SearchScreenBuilder: SearchScreenBuilderProtocol {
      func buildSearchScreenModule() -> SearchScreenViewController? {
@@ -127,7 +127,7 @@ Photo model will look like:
     
 ## Unit testing:
 
-Try to cover some important functionality of the app.
+Try to cover some important functionality of the app under unit-testcases.
 
 
 Thank you :-) 
