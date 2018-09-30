@@ -90,14 +90,18 @@ PhotoView contains a collection of images based on search result. If user scroll
         "nojsoncallback": "1"
     ]
  
- variable parameters: 
+ <b>variable parameters</b>: 
  
-    [ "text": "kittens", "page": "1"]
+    [ "text": "kittens", "page": "2"]
 
-API example:
+<b>API example</b>:
 
     https://api.flickr.com/services/rest/?format=json&api_key=3e7cc266ae2b0e0d78e279ce8e361736&method=flickr.photos.search&safe_search=1&nojsoncallback=1&text=kittens&page=2
 
+<b>API documentation</b>:
+
+        https://www.flickr.com/services/api/explore/flickr.photos.search
+        
 
 ##### To construct an Image from Response:
 
